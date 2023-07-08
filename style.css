@@ -1,4 +1,11 @@
-.body{ overflow-x: hidden;
+.body{ 
+	font-family: 'Belanosima', sans-serif;
+
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	line-height: 1.5;
+	color: #2e2f42;
+	overflow-x: hidden;
     text-decoration: none;
     list-style-type: none;
 }
@@ -13,6 +20,17 @@ p {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
+
+.logo{ padding-right: 300px;
+	font-size: 26;
+	color: black;}
+
+
+
+
+
+
 
 ul,
 ol {
@@ -32,10 +50,112 @@ ol {
 
 
     .cont {
-		width: 1199px;
+		width: 1250px;
 
 		margin-right: auto;
 		margin-left: auto;
+padding-left: 20px;
+padding-right: 20px;
+		
+	}
+
+
+	.nav-site {  display: flex;
+		justify-content: center;
+	}
+	.nav-site-ul{
+		display: flex;
+		justify-content: center;
+	}
+	
+
+	.li-site:not(:last-child) {
+		margin-right: 110px;
+	}
+
+
+	.li-site {justify-content: center;
+		align-items: center;
+	}
+
+	.li-site:hover{ 
+		background-color: #DAD5D5;
+		
+		transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+
+
+	.li-site:focus{background-color: #DAD5D5;
+		transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+
+	.header {padding: 20px 0;
+		
+		margin-bottom: 25px;
+		
+	}
+	
+	
+	.h2{display: flex;
+	justify-content: center;}
+	
+	.hero { margin-bottom: 35px;
+	}
+	.container {
+	}
+	.hero-container {
+	}
+	.header-title { display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 20px;
+
+	}
+	.list-catalog { 
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 
 		
 	}
+	.b-catalog {display: flex;
+		justify-content: center;
+
+		background-color: #F1F1F1 ;
+		border-radius: 25%;
+		
+		align-items: center;
+		border: 2px solid #000000;
+
+		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.li-cat:hover {
+		background-color: #DAD5D5;
+	}
+
+	.li-cat:focus {
+		background-color: #DAD5D5;
+	}
+	.text-b{
+		display: flex;
+		justify-content: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	
+	}
+	.li-cat{ }
+
+	.s1{ }
+
+
+	.hero-cont{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	.s2{margin-bottom: 20px;}
