@@ -1,8 +1,6 @@
 .body{ 
-	font-family: 'Belanosima', sans-serif;
-
-	font-size: 24px;
-	letter-spacing: 0.02em;
+	font-family: 'Manrope', sans-serif;
+	letter-spacing: 0.04em;
 	line-height: 2;
 	color: #2e2f42;
 	overflow-x: hidden;
@@ -23,7 +21,7 @@ p {
 
 
 .logo{ padding-right: 300px;
-	font-size: 400;
+	font-weight: 800;
 	color: black;}
 
 
@@ -75,7 +73,7 @@ padding-right: 20px;
 
 
 	.li-site {justify-content: center;
-		align-items: center;
+		align-items: center;font-weight: 600;
 	}
 
 	.li-site:hover{ 
@@ -93,15 +91,18 @@ padding-right: 20px;
 
 	.header {padding: 20px 0;
 		
-		margin-bottom: 25px;
+		margin-bottom: 10px;
 		
 	}
 	
 	
 	.h2{display: flex;
-	justify-content: center;}
+	justify-content: center;
+margin-bottom: 60px;
+color: red;
+font-weight: 800;}
 	
-	.hero { margin-bottom: 35px;
+	.hero { margin-bottom: 30px;
 	}
 	.container {
 	}
@@ -119,6 +120,7 @@ padding-right: 20px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		margin-bottom: 60px;
 
 		
 	}
@@ -143,11 +145,13 @@ padding-right: 20px;
 	.li-cat:focus {
 		background-color: #DAD5D5;
 	}
-	.text-b{
+	.text-b{font-weight: 400;
 		display: flex;
 		justify-content: center;
 		padding-left: 20px;
 		padding-right: 20px;
+		color: black;
+		font-size: 24px;
 	
 	}
 	.li-cat{ }
@@ -161,3 +165,19 @@ padding-right: 20px;
 		margin-bottom: 20px;
 	}
 	.s2{margin-bottom: 20px;}
+	.cont {
+	}
+	
+	.sale-list { display: flex;
+		justify-content: center;
+	}
+	
+	.p-sale { font-size: 16px;
+		margin-top: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		
+		color: black;font-weight: 400;
+	}
+
+	.s3{ margin-bottom: 60px;}
